@@ -1,0 +1,10 @@
+Following Support  both decimal and integer:
+Use “bc” command
+num1=20.5; num2=5;
+echo “ 20.5 + 20 ” | bc 
+echo “ $num1 - $num2 ” | bc 
+echo “ $num1 * $num2 ” | bc 
+echo “ $num1 / $num2 ” | bc #Won’t give decimal values
+echo “ scale=2;$num1 / $num2 ” | bc 
+echo  “$num1 % $num2 ” | bc 
+echo  “ scale=2;sqrt($num1) ” | bc 

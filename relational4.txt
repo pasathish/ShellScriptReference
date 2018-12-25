@@ -1,0 +1,6 @@
+ASCII alphabetical order
+Use [[ ]]  for following operator
+ -z =>check for length zero      if [[  -z “$b” ]]
+ >  => greater than              if [[ “$a” > “$b” ]]
+ <  =>less than                  if [[ “$a” < “$b” ]]
+

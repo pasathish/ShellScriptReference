@@ -1,0 +1,10 @@
+read  
+var=31;
+readonly var;
+var=50;#Throws error
+fun(){
+     return  22;
+}
+readonly fun;
+readonly –f # Display List of read only function
+readonly –p # Display List of read only  variables

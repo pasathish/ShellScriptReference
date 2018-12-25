@@ -1,0 +1,15 @@
+Syntax :
+========
+for  (( n=0; n < 5 ; n++))
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+========
+for (( n=0; n < 5 ; n++))
+do
+  echo $n
+done

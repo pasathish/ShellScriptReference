@@ -1,0 +1,5 @@
+String comparison operators:
+Use [ ]  for following operator
+=    =>equal to         if [ “$a” = “$b” ]
+==   =>equal to         if [ “$a” == “$b” ]
+!=   =>not equal        if [ “$a” != “$b” ]

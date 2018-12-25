@@ -1,0 +1,21 @@
+Syntax :
+=======
+for  value in  1 2 3 4 …N
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+for value in  1 2 3 4
+do
+ echo $value 
+done
+-----------------------------------------
+for arrays:
+----------
+for value in  ${array[@]}
+do
+ echo $value 
+done

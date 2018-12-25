@@ -1,0 +1,25 @@
+Syntax:
+=======
+case expression in 
+pattern1)
+	statement1;;
+pattern2 )
+	statement2;;
+…………….
+*)
+	statement;;
+esac
+
+Example:
+=======
+read  -p “Enter a character”  char
+case  $char in 
+[a-z])
+	printf  “lower\ case\ Letter” ;;
+[A-Z])
+	printf  “Upper\ case\ Letter” ;;
+[0-9])
+	printf  “Numbers” ;;
+*)
+	printf  “Special\ Character” ;;
+esac

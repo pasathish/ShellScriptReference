@@ -1,0 +1,15 @@
+Syntax :
+========
+for  value in  $(command)
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+========
+for value in *
+do
+ echo $value 
+done

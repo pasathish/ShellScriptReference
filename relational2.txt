@@ -1,0 +1,11 @@
+Numeric comparison operators:
+Use (( )) for following operator
+<    =>equal to
+<=   => not equal
+>    => greater than
+>=   => greater than or equal
+
+
+Example:
+If (( “$num1” < “$num2” )) 
+

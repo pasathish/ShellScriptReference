@@ -1,0 +1,12 @@
+If Syntax:
+==========
+if [ condition ] 
+then 
+  commands
+fi 
+Example:
+========
+if [ 8 -gt 7 ]
+then
+	echo "True"
+fi

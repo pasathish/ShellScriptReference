@@ -1,0 +1,9 @@
+name = “AAAAAAA” # Global Variable
+
+Print () {
+          local name=“bbbb” # Local Variable
+          echo Inside print $name              #Inside print  bbbb     
+}
+echo $name  # AAAAAA
+Print 
+echo $name # AAAAAA

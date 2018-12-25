@@ -1,0 +1,25 @@
+Type 1:
+=======
+function functionName(){
+	commands
+	……………….
+}
+
+Type 2:
+=======
+functionName(){
+    commands
+    ……………….
+}
+
+Example :
+=========
+function hello(){
+	echo $1 $2
+}
+
+quit(){
+	echo "exit"
+}
+hello “Hello” “World”
+quit

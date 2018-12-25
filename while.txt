@@ -1,0 +1,19 @@
+Syntax  for while:
+==================
+while [ condition ] 
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+========
+N=0
+while [ $N -lt 10] 
+do
+echo “The current value of N is $N”
+sleep 1
+(( N++ ))
+done
+

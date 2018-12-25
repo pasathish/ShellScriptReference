@@ -1,0 +1,18 @@
+Syntax  for until :
+===================
+until [ condition ] 
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+========
+N=0
+until [[ $N > 10 ]] 
+do
+	echo "The current value of N is $N"
+	sleep 1
+	(( N++ ))
+done

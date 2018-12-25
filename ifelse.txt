@@ -1,0 +1,17 @@
+If else Syntax:
+===============
+if [ condition ] 
+then 
+  commands1
+else
+  commands2
+fi 
+
+Example:
+========
+if [ 8 -gt 7 ]
+then
+	echo "True"
+else
+	echo "False"
+fi

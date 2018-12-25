@@ -1,0 +1,21 @@
+else if  Syntax:
+================
+if [ condition ] 
+then 
+  commands1
+elif [ condition ]
+then
+fi 
+
+
+Example:
+========
+if (( 6 > 7 ))
+then
+	echo "Condition 1 true"
+elif [[ 7 > 6 ]]
+then
+	echo "Condition 2 true"
+else
+	echo "Nothing is true"
+fi

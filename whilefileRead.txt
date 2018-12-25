@@ -1,0 +1,6 @@
+File as input to while  loop:
+=============================
+while read line
+do
+  echo $line
+done < file1.txt

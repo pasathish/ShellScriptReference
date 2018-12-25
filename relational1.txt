@@ -1,0 +1,10 @@
+Numeric comparison operators:
+Use [ ]  for following operator
+ -eq =>equal to
+-ne => not equal
+-gt => greater than
+-ge => greater than or equal
+-lt=>less than
+-le => less than or equal
+Example:
+If [ “$num1” –gt “$num2” ] 

@@ -1,0 +1,20 @@
+Syntax  for select:
+===================
+select val in array
+do
+  commands1
+  command2  
+     …….
+done
+
+Example:
+========
+select val in select1 select2 select3 exit
+do
+  if [[ "$val" == "exit" ]]
+  then
+		exit
+  else 
+		echo "you selected  $val"
+  fi
+done
