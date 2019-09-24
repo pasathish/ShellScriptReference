@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+li{
+    font-size:2em;
+    background:rgba(51, 51, 254, 0.8);
+    list-style-type:none;
+    display:inline-block;
+    line-height:10em;
+    width:10em;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+}
+.ripple{color:#fff;}
+.ripple:after{
+    content:'';
+    position:absolute;
+    border-radius:50%;
+    height:10em; width:10em;
+    top: 0; left:0;
+    background-color: inset 0 0 0 0em rgba(255,255,255,0.2);
+    transition: box-shadow 0.8s;
+}
+.ripple:active:after{
+    box-shadow: inset 0 0 0 10em rgba(255,255,255,0.2);
+}
+</style>
+</head>
+<body>
+<ul>
+    <li><div class="ripple">button</div></li>
+</ul>
+</body>
+</html>
